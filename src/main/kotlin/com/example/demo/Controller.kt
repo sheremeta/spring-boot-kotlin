@@ -16,7 +16,7 @@ class Controller {
                 "" -> """
                     Who are you?
                     Please specify your name with the name param
-                """.trimIndent()
+                """
                 else -> "hello, $name"
             })
 }
